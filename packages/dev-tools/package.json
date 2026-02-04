@@ -13,8 +13,7 @@
     "preinstall": "npx only-allow pnpm",
     "clean": "rimraf node_modules",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "typecheck": "tsc --noEmit"
+    "test:watch": "vitest"
   },
   "dependencies": {
     "common": "workspace:*",
